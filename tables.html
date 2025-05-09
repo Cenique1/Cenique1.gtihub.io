@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tables - Colorado Springs</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 30px auto;
+      width: 90%;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0f0ff;
+      font-weight: bold;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tables.html">Tables</a></li>
+      <li><a href="form.html">Feedback</a></li>
+      <li><a href="https://github.com/Cenique1/CTI-110" target="_blank">My GitHub</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 style="text-align:center;">Activities and Attractions in Colorado Springs</h1>
+
+    <div style="text-align: center;">
+      <img src="images/garden-of-the-gods.jpg" alt="Garden of the Gods in Colorado Springs" width="800" style="border-radius: 10px; margin: 20px 0;">
+      <p style="font-style: italic; margin-bottom: 30px;">Scenic view of Garden of the Gods, a popular Colorado Springs landmark.</p>
+    </div>
+
+    <table>
+      <caption>Top Attractions by Category</caption>
+      <tr>
+        <th>Category</th>
+        <th>Activity</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Nature</td>
+        <td>Garden of the Gods</td>
+        <td>Scenic park with red rock formations and hiking trails</td>
+      </tr>
+      <tr>
+        <td>Pikes Peak</td>
+        <td>Drive or ride to the summit for breathtaking views</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Wildlife</td>
+        <td>Cheyenne Mountain Zoo</td>
+        <td>High-altitude zoo with hands-on animal experiences</td>
+      </tr>
+      <tr>
+        <td>Bear Creek Nature Center</td>
+        <td>Trails and exhibits focused on local wildlife</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Education</td>
+        <td>U.S. Olympic & Paralympic Museum</td>
+        <td>Interactive exhibits celebrating U.S. athletes</td>
+      </tr>
+      <tr>
+        <td>Air Force Academy</td>
+        <td>Tour one of the top military academies in the U.S.</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>Created by Cenique Robinson</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    form {
+      background-color: white;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tables.html">Tables</a></li>
+      <li><a href="form.html">Feedback</a></li>
+      <li><a href="https://github.com/Cenique1" target="_blank">My GitHub</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 style="text-align: center;">We’d Love Your Feedback!</h1>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="attraction">Favorite Attraction:</label>
+      <select id="attraction" name="attraction">
+        <option value="garden">Garden of the Gods</option>
+        <option value="pikes">Pikes Peak</option>
+        <option value="zoo">Cheyenne Mountain Zoo</option>
+        <option value="museum">Olympic Museum</option>
+        <option value="academy">Air Force Academy</option>
+      </select>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Let us know what you think!" required></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </main>
+
+  <footer>
+    <p style="text-align:center;">Created by Cenique Robinson</p>
+  </footer>
+</body>
+</html>
